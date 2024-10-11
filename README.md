@@ -1,7 +1,6 @@
 #DirectX Graphics Project
 ##Project Overview
 This project is a DirectX 11-based graphics application developed in C++ as part of a university course. The application demonstrates the rendering of various 3D models, organized into a scenegraph structure, with dynamic lighting using shaders written in HLSL (.hlsl).
-
 ##Features
 - **Scenegraph-based Rendering**: Models are organized into a hierarchical scenegraph, allowing for complex transformations and object management.
 - **Dynamic Lighting**: The project features dynamic lighting, including directional, point, and spotlights, calculated in real-time using custom shaders.
@@ -49,8 +48,8 @@ cd directx-graphics-project
   - Mouse: Rotate the camera.
   - Q/E: Move the camera up and down.
   - F1/F2/F3: Toggle different lighting effects (e.g., directional, point, spotlights).
-Credits
+##Credits
 University project developed by Gonzalo Escolar Tyler.
 Models and texture files sourced from Dr. Wayne Rippin.
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for details.
