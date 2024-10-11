@@ -1,12 +1,12 @@
-#DirectX Graphics Project
-##Project Overview
+# DirectX Graphics Project
+## Project Overview
 This project is a DirectX 11-based graphics application developed in C++ as part of a university course. The application demonstrates the rendering of various 3D models, organized into a scenegraph structure, with dynamic lighting using shaders written in HLSL (.hlsl).
-##Features
+## Features
 - **Scenegraph-based Rendering**: Models are organized into a hierarchical scenegraph, allowing for complex transformations and object management.
 - **Dynamic Lighting**: The project features dynamic lighting, including directional, point, and spotlights, calculated in real-time using custom shaders.
 - **Shaders (HLSL)**: Custom vertex and pixel shaders are used to apply lighting, material properties, and other graphical effects.
 - **Multiple Models**: The scene contains multiple 3D models, each with different materials, textures, and transformations.
-##Technologies Used
+## Technologies Used
 - **DirectX 11**: The core graphics API for rendering.
 - **C++**: The programming language used to implement the application.
 - **HLSL (High-Level Shading Language)**: Used to write vertex and pixel shaders for lighting and other effects.
@@ -24,12 +24,12 @@ This project is a DirectX 11-based graphics application developed in C++ as part
 - **Shaders (.hlsl)**:
   - **shader.hlsl**: Applies lighting calculations to the models.
   - **textureShader.hlsl**: Applies lighting calculations and material properties to the models.
-##Setup Instructions
-###Prerequisites
+## Setup Instructions
+### Prerequisites
 - Visual Studio 2022 or higher with the following components:
 - Desktop Development with C++
 - DirectX SDK (if not already included in your Visual Studio installation)
-###Build and Run
+### Build and Run
 - Clone the repository:
 ```bash
 git clone https://github.com/gonz-tyler/directx-graphics-project.git
@@ -38,7 +38,7 @@ cd directx-graphics-project
 - Open the solution file (.sln) in Visual Studio.
 - Build the project by selecting Build > Build Solution (Ctrl+Shift+B).
 - Run the application by pressing F5 or selecting Debug > Start Debugging.
-##Future Improvements
+## Future Improvements
 - Add support for more advanced lighting techniques (e.g., shadows, global illumination).
 - Implement post-processing effects (e.g., bloom, depth of field).
 - Add a user interface for real-time scene manipulation.
@@ -48,8 +48,8 @@ cd directx-graphics-project
   - Mouse: Rotate the camera.
   - Q/E: Move the camera up and down.
   - F1/F2/F3: Toggle different lighting effects (e.g., directional, point, spotlights).
-##Credits
+## Credits
 University project developed by Gonzalo Escolar Tyler.
 Models and texture files sourced from Dr. Wayne Rippin.
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
